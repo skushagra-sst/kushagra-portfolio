@@ -1,0 +1,71 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    padding-left: 10%;
+    overflow: hidden;
+}
+.devLogo {
+    transform: rotate(8deg);
+}
+.hero-head {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+
+}
+
+.scroller {
+    height: 10%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 52px;
+    color: var(--color-hero-primary);
+}
+
+.subtitle {
+    font-size: 16px;
+}
+
+.hero {
+    position: relative;
+}
+
+.blob {
+    position: absolute;
+    width: 500px; /* adjust size as needed */
+    height: 500px; /* adjust size as needed */
+    border-radius: 50%;
+    background-color: var(--color-blob-left); /* adjust color and transparency as needed */
+    filter: blur(200px); /* adjust blur strength as needed */
+}
+
+.top-left {
+    top: -30%;
+    left: -15%;
+}
+
+.bottom-right {
+    bottom: -30%;
+    right: -15%;
+}
+
+.element {
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+    border: 2px solid var(--color-hero-primary);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.developerLogo {
+    transform: rotate(8deg);
+}
