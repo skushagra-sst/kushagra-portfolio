@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 
 export default function NavBar() {
 
-   
+
 
     return (
         <div className="navContainer" id='navbar'>

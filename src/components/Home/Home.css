@@ -1,31 +1,32 @@
 .home {
     width: 100%;
     height: 100vh;
-    padding-top: 10vh;
     background-color: var(--color-primary);
     color: var(--color-secondary);
     display: flex;
 }
 
-.home .left {
+.home .Homeleft {
     width: 50%;
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 10%;
     gap: 1rem;
+    /* background-color: red; */
 }
 
 .home .right {
     width: 50%;
-    height: 100%;
+    height: 90%;
     padding-left: 0;
     padding-right: 0;
-    padding-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    /* background-color: green; */
 }
 
 .info {

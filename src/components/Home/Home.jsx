@@ -5,11 +5,12 @@ import Zolo from "../../assets/zolo.svg"
 import Bhashini from "../../assets/bhashini.svg"
 import CocaCola from "../../assets/cocacola.svg"
 import { Link } from 'react-scroll';
+import ReactTypingEffect from 'react-typing-effect';
 
 export default function Home() {
     return (
         <div className='home' id='home'>
-            <div className="left">
+            <div className="Homeleft">
                 <div className="homeTitle titleMinimal">
                     Minimalistic
                 </div>

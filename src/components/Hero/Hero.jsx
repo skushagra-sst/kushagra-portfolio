@@ -1,6 +1,7 @@
 import './Hero.css';
 import { Link } from 'react-scroll';
 import ScrollerBlob from '../../ui/ScrollerBlob/ScrollerBlob'
+import ReactTypingEffect from 'react-typing-effect';
 
 export default function Hero() {
     return (
@@ -9,8 +10,13 @@ export default function Hero() {
             <div class="blob bottom-right"></div> */}
             <div className="hero-head">
                 <div className="title">
-                    
-                    {process.env.REACT_APP_DEVELOPER_NAME}
+                    <ReactTypingEffect 
+                    text={[process.env.REACT_APP_DEVELOPER_NAME]}
+                    typingDelay={1000}
+                    speed={200}
+                    eraseSpeed={100}
+
+                    />
                 </div>
                 <div className="subtitle">{process.env.REACT_APP_SUBTITLE}</div>
             </div>
