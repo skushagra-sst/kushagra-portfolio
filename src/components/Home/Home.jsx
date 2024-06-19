@@ -32,7 +32,7 @@ export default function Home() {
                         <img className='marqItem' src={SST} alt="" />
                         <img className='marqItem' src={Zolo} alt="" />
                         <img className='marqItem' src={Bhashini} alt="" />
-                        <img className='marqItem' src={CocaCola} alt="" />
+                        {/* <img className='marqItem' src={CocaCola} alt="" /> */}
                     </Marquee>
                     <div className="actionBtns">
                         <Link to="contact" spy={true} smooth={true} offset={0} duration={500} className='actionBtnLink'>
