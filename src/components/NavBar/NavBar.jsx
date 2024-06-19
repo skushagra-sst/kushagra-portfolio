@@ -1,5 +1,6 @@
 import './NavBar.css'
 import { Link } from 'react-scroll';
+import Resume from '../../assets/resume.pdf'
 
 export default function NavBar() {
 
@@ -36,9 +37,11 @@ export default function NavBar() {
                 </a>
             </div>
             <div className='right'>
-                <div className="resumeBtn">
-                    Download
-                </div>
+                <a target='_blank' href={Resume} download="Kushagra's Resume" >
+                    <div className="resumeBtn">
+                        Download Resume
+                    </div>
+                </a>
             </div>
         </div>
     );
