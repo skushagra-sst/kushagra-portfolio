@@ -37,7 +37,7 @@ export default function NavBar() {
             </div>
             <div className='right'>
                 <div className="resumeBtn">
-                    Download Resume
+                    Download
                 </div>
             </div>
         </div>
