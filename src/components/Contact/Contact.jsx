@@ -26,24 +26,20 @@ function emailer(name, email, subject, message) {
 
 export default function Contact() {
 
-    // function clicker() {
-    //     setCount(count+1);
-    // }
-
-    // const [count, setCount] = useState(0);
     return (
         <div className="contact" id='contact'>
             <div className="left">
                 <div className="contactHeader">
                     Lets Connect
                 </div>
+
                 <div className="emailer">
                     <div className="userInfo">
                         <input type="text" className="contactInput nameInput" placeholder='Name' />
                         <input type="text" className="contactInput emailInput" placeholder='Email' />
                     </div>
                     <textarea className='contactInput messageInput' name="" id="" placeholder='Write your message here . . .'></textarea>
-                </div>
+            </div>
             </div>
 
             {/* <div className="counter" id="counter"> {count}</div>

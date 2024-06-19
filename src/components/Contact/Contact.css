@@ -1,19 +1,19 @@
 .contact {
-    height: 90vh;
+    height: 55vh;
     width: 100%;
 }
 
 .contact .left {
-    width: 50%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: left;
     gap: 2rem;
 }
 
 .contactHeader {
-    font-size: 4rem;    
+    width: 50%;
+    font-size: 8rem;
     color: var(--color-hero-primary);
 }
 
@@ -32,7 +32,7 @@
 .emailer {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     gap: 2rem;
 }
 .messageInput {

@@ -4,6 +4,11 @@
     padding-left: 10%;
     overflow: hidden;
 }
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
 .devLogo {
     transform: rotate(8deg);
 }

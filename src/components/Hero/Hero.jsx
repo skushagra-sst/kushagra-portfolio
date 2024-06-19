@@ -11,7 +11,7 @@ export default function Hero() {
             <div className="hero-head">
                 <div className="title">
                     <ReactTypingEffect 
-                    text={[process.env.REACT_APP_DEVELOPER_NAME]}
+                    text={[process.env.REACT_APP_DEVELOPER_NAME, process.env.REACT_APP_DEVELOPER_NAME_SHORT]}
                     typingDelay={1000}
                     speed={200}
                     eraseSpeed={100}

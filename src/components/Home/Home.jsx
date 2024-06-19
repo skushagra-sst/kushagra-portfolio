@@ -26,7 +26,7 @@ export default function Home() {
                     Hi, my name is Kushagra. I am a student of
                     Computer Science at Scaler School of Technology. I like creating user friendly and simple designs.
                     <br></br><br></br>
-                    My areas of interest in Computer Vision, IoT and Quantum Cryptography. I am interested on working on IoT projects which involve CV and NLP.
+                    My areas of interest in Computer Vision, IoT and Quantum Cryptography. I like working on the intersection of Physics, Mathematics and Computer Science.
 
                     <Marquee className='marq'>
                         <img className='marqItem' src={SST} alt="" />
