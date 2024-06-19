@@ -20,6 +20,7 @@ export default function Footer() {
             <div className="userIP">
                 <div ref={userIP} className="footerText"></div>
             </div>
+            <div className="footerText">made with ❤️ by Kushagra</div>
         </div>
     );
 }
